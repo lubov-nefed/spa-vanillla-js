@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"><!--Кодировка-->    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"><!--Совместимость со старым браузером IE-->    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--Устанавливает масштабирование окна и страницы 1:1-->   
+    <!--Подключение шрифтов-->
+    <link rel="stylesheet" href="css/reset.css"><!--Подключение обнуляющих CSS-стилей-->
+    <link rel="stylesheet" href="css/style.css"><!--Подключение CSS--> 
+    <title>SPA Vanilla JS</title><!--Название страницы-->
+</head>
+<body><!--Тело страницы-->
+    <div id="root" class="root">
+        <nav id="main-nav" class="sidebar">
+            <a class="main-nav-link" href="/">Home</a>
+            <a class="main-nav-link" href="/about">About</a>
+            <a class="main-nav-link" href="/lorem">Lorem</a>
+        </nav>
+        <div id="main-page" class="main-page">
+            <div class="page-container">home</div>
+        </div>
+    </div>
+
+    
+    <script src="js/router.js"></script><!--Подключение JavaScript-->
+</body>
+</html>

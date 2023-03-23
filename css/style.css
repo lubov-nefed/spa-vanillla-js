@@ -1,0 +1,24 @@
+html,
+body {
+  font-family: sans-serif;
+}
+
+.root {
+  display: flex;
+  height: 100%;
+}
+
+.main-page {
+  flex-grow: 1;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  border-right: 1px solid lightgrey;
+}
+
+.main-nav-link {
+  margin: 0.5rem 0;
+}
