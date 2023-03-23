@@ -1,1 +1,1 @@
-https://lubov-nefed/spa-vanilla-router.html
+https://lubov-nefed.github.io//spa-vanilla-router.html
